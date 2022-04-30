@@ -10,10 +10,6 @@ Para cada caso, imprima uma mensagem correspondente, de acordo com o exemplo aba
  palavras impressas na mesma linha.'''
 
 n=int(input())
-par=0
-impar=0
-positivo=0
-negativo=0
 for c in range(1,n+1):
     x=int(input())
     if x%2==0 and x>0:
